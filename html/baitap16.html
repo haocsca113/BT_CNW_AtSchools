@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai16</title>
+</head>
+<body>
+    <form action="">
+    <h1>Travel reservation form </h1>
+    <h3>* denotes mandotory</h3>
+    
+        <b><label for="lbName">Full name*:</label><br></b>
+        <input type="text" id="lbName" name="fullname" size="20" maxlength="30" value="" placeholder="FirstName LastName"><br>
+        <b><label for="lbemail">Email address*:</label><br></b>
+        <input type="text" id="lbemail" name="email" size="20" maxlength="30" value="" placeholder="EMAIL_ADDRESS"><br>
+        <b><label for="lbSelect">Select Tour Package*:</label><br></b>
+        <select name="select" id="lbSelect">
+            <option value="s1">Goa</option>
+            <option value="s2">Gao</option>
+            <option value="s3">Red</option>
+        </select><br>
+        <b><label for="lbarrival">Arrival date*:</label><br></b>
+        <input type="datetime" id="lbarrival" name="arrivaldate" size="20" maxlength="30" value="" placeholder="m/d/y"><br> 
+        <b><label for="lbnumber">Number of persons*:</label><br></b>
+        <input type="number" id="lbnumber" name="" size="20" maxlength="30" value="" placeholder ="UNKNOWN_TYPE"><br>
+        <b><label for="">What would you want to avail?*</label><br></b>
+        <input type="checkbox" id="fad1"><label for="fad1">Boarding</label><br>
+        <input type="checkbox" id="fad2"><label for="fad2">Fooding</label><br>
+        <input type="checkbox" id="fad3"><label for="fad3">Sight seeing</label><br>
+        <b><label for="fdis">Discout Coupon code:</label><br></b>
+        <input type="number" id="fdis" name="discout" size="10" maxlength="20" placeholder="UNKNOWN_TYPE"><br>
+        <b><label for="lbterms">Terms and conditions*</label></b><br>
+        <input type="radio" name="ans" id="ans1" size="10" maxlength="20"> <label for="ans1">I agree</label>
+        <input type="radio" name="ans" id="ans2" size="10" maxlength="20"> <label for="ans2">I disagree</label><br>
+        <input type="submit" value="Complete reservation">
+    </form>
+    
+</body>
+</html>
